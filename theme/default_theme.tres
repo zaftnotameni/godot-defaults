@@ -1,0 +1,99 @@
+[gd_resource type="Theme" load_steps=10 format=3 uid="uid://p0nwmwqm8l0"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_f3kre"]
+bg_color = Color(0.45098, 0.12549, 0.0901961, 1)
+expand_margin_left = 8.0
+expand_margin_top = 8.0
+expand_margin_right = 8.0
+expand_margin_bottom = 8.0
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_52o6v"]
+bg_color = Color(0.45098, 0.12549, 0.0901961, 1)
+expand_margin_left = 8.0
+expand_margin_top = 8.0
+expand_margin_right = 8.0
+expand_margin_bottom = 8.0
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_bixck"]
+bg_color = Color(0.45098, 0.12549, 0.0901961, 1)
+expand_margin_left = 8.0
+expand_margin_top = 8.0
+expand_margin_right = 8.0
+expand_margin_bottom = 8.0
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_xw5no"]
+bg_color = Color(0.301961, 0.0745098, 0.0588235, 1)
+expand_margin_left = 8.0
+expand_margin_top = 8.0
+expand_margin_right = 8.0
+expand_margin_bottom = 8.0
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_5xlxn"]
+bg_color = Color(0.6, 0.156863, 0.0901961, 1)
+expand_margin_left = 8.0
+expand_margin_top = 8.0
+expand_margin_right = 8.0
+expand_margin_bottom = 8.0
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_vhpik"]
+bg_color = Color(0.45098, 0.12549, 0.0901961, 1)
+expand_margin_left = 8.0
+expand_margin_top = 8.0
+expand_margin_right = 8.0
+expand_margin_bottom = 8.0
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_etakj"]
+bg_color = Color(0.301961, 0.0745098, 0.0588235, 1)
+expand_margin_left = 8.0
+expand_margin_top = 8.0
+expand_margin_right = 8.0
+expand_margin_bottom = 8.0
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_8ofhu"]
+bg_color = Color(0.2, 0.0509804, 0.0627451, 1)
+expand_margin_left = 8.0
+expand_margin_top = 8.0
+expand_margin_right = 8.0
+expand_margin_bottom = 8.0
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_tmsed"]
+bg_color = Color(0.2, 0.0509804, 0.0627451, 1)
+
+[resource]
+Button/colors/font_color = Color(0.74902, 0.282353, 0.113725, 1)
+Button/colors/font_focus_color = Color(0.85098, 0.494118, 0.0862745, 1)
+Button/colors/font_hover_color = Color(0.85098, 0.494118, 0.0862745, 1)
+Button/colors/font_hover_pressed_color = Color(0.898039, 0.745098, 0.133333, 1)
+Button/colors/font_pressed_color = Color(0.898039, 0.745098, 0.133333, 1)
+Button/constants/align_to_largest_stylebox = 1
+Button/font_sizes/font_size = 48
+Button/styles/focus = SubResource("StyleBoxFlat_f3kre")
+Button/styles/hover = SubResource("StyleBoxFlat_52o6v")
+Button/styles/hover_pressed = SubResource("StyleBoxFlat_bixck")
+Button/styles/normal = SubResource("StyleBoxFlat_xw5no")
+Button/styles/pressed = SubResource("StyleBoxFlat_5xlxn")
+Label/colors/font_color = Color(0.85098, 0.494118, 0.0862745, 1)
+Label/font_sizes/font_size = 48
+LineEdit/colors/caret_color = Color(0.94902, 0.905882, 0.286275, 1)
+LineEdit/colors/font_color = Color(0.898039, 0.745098, 0.133333, 1)
+LineEdit/colors/font_placeholder_color = Color(0.85098, 0.494118, 0.0862745, 1)
+LineEdit/colors/font_uneditable_color = Color(0.74902, 0.282353, 0.113725, 1)
+LineEdit/colors/selection_color = Color(0.0283333, 0, 0.17, 0.52549)
+LineEdit/font_sizes/font_size = 64
+LineEdit/styles/focus = SubResource("StyleBoxFlat_vhpik")
+LineEdit/styles/normal = SubResource("StyleBoxFlat_etakj")
+LineEdit/styles/read_only = SubResource("StyleBoxFlat_8ofhu")
+MarginContainer/constants/margin_bottom = 32
+MarginContainer/constants/margin_left = 32
+MarginContainer/constants/margin_right = 32
+MarginContainer/constants/margin_top = 32
+PanelContainer/styles/panel = SubResource("StyleBoxFlat_tmsed")
+RichTextLabel/colors/default_color = Color(0.85098, 0.494118, 0.0862745, 1)
+RichTextLabel/colors/font_outline_color = Color(0.94902, 0.905882, 0.286275, 1)
+RichTextLabel/font_sizes/bold_font_size = 24
+RichTextLabel/font_sizes/bold_italics_font_size = 32
+RichTextLabel/font_sizes/italics_font_size = 32
+RichTextLabel/font_sizes/mono_font_size = 24
+RichTextLabel/font_sizes/normal_font_size = 32
+current_player/base_type = &"Label"
+current_player/colors/font_color = Color(0.94902, 0.905882, 0.286275, 1)
