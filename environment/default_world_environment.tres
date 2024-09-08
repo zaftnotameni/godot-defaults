@@ -2,7 +2,7 @@
 
 [resource]
 background_mode = 3
-background_canvas_max_layer = 20
+background_canvas_max_layer = 40
 glow_enabled = true
 glow_intensity = 1.1
 glow_bloom = 0.4
